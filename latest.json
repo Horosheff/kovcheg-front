@@ -1,8 +1,8 @@
 {
-  "version": "1.9.31",
+  "version": "1.9.32",
   "url": "https://rehabilitation-bills-recipe-executed.trycloudflare.com/KovchegVPN.exe",
-  "sha256": "c65ba75f3cdd456c4655a8079aa0d6de14130b3a3985ab2316d653d78209f455",
-  "size": 71129169,
-  "notes": "Автообновление снова через GitHub и Cloudflare. Если кнопка «Нет связи» — подожди, повторю сам. Сфера не мешает обновлению.",
-  "sig": "MEUCIQDdWMDkxJdwXzqTcx7J9EtzoOpNAZNV+eFxni+tQiFuFQIgRNravG3DcibRcvVnCPpm78XTA/sPZQChVIaVxP5uK1E="
+  "sha256": "bc5afe5f90f650b7ac0ffa74541d8c0b138d86f865da485c19e8b536e0823037",
+  "size": 71131217,
+  "notes": "YouTube/голос/Cursor больше не душатся: видео и UDP мимо туннеля, DNS напрямую, вход XHTTP. Выйди из трея, открой снова, сфера.",
+  "sig": "MEYCIQCWe3lVZyO59E56LvB9eIZC2bE0+zgVPb1sguy5xsQROgIhAMUrmJ80YtbPwTVec/TrHdsadfGsPnhggiBC19AANAuF"
 }

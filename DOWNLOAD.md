@@ -6,4 +6,4 @@ https://rehabilitation-bills-recipe-executed.trycloudflare.com/
 
 Если целый exe обрывается — на той же странице есть части и join.cmd.
 
-Автообновление: манифест `latest.json` в этом репозитории. Клиент 1.9.31+ берёт его с GitHub, не с вырезанного IP.
+1.9.32: YouTube/UDP/DNS больше не душат туннель. Голос Cursor и Gemini идут через XHTTP packet-up.
