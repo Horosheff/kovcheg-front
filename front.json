@@ -1,0 +1,7 @@
+{
+  "host": "baskets-needed-events-ballet.trycloudflare.com",
+  "port": 443,
+  "path": "/vlessws",
+  "ota": "https://baskets-needed-events-ballet.trycloudflare.com/latest.json",
+  "sig": "MEYCIQCI65iWeNTyu1BuvxpWfEmjGHmj3WewQym3ILlOPk47bgIhAL7A/JpRA6DooG5j9XHpjiwJGl02QP4Eh65/RsNy2Std"
+}
