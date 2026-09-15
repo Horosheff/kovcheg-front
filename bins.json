@@ -1,0 +1,23 @@
+[
+    {
+        "version": "xray.exe",
+        "url": "http://31.76.82.215:8080/bin/xray.exe",
+        "sha256": "15c2d007954ac53ba69b80ec91242786b3c0b71d52649165b4ca1d5cc96ef8f1",
+        "size": 35613696,
+        "sig": "MEQCIBXy39sYumMZzm64KvTu0NYErqHSY6fYTvDZLt+PxYzpAiB5t2sWxtpiAMIg/pykxaOHPMoclgXj/ZWXZIL30vMR9g=="
+    },
+    {
+        "version": "sing-box.exe",
+        "url": "http://31.76.82.215:8080/bin/sing-box.exe",
+        "sha256": "a4476dd768168a77e249050066bb32774addefcc37da123978623e7b2819de28",
+        "size": 45492224,
+        "sig": "MEUCIQCkISFfcXSrgWRc/5Qp/Th4n73z+Jc6qY644tGNDKLBEQIgewxVg4M+OyxYO+3a5JgjquGFFUtxt3rBNiyDOGuG1aw="
+    },
+    {
+        "version": "wintun.dll",
+        "url": "http://31.76.82.215:8080/bin/wintun.dll",
+        "sha256": "e5da8447dc2c320edc0fc52fa01885c103de8c118481f683643cacc3220dafce",
+        "size": 427552,
+        "sig": "MEQCIDAl4rrDJy4uFtPpqmxha09OceqGr5sTWQdPSmqbI9lqAiAuHcsNqo7gA2IMtdRsPd5sHmaxYiyJ0+UfghbEhQgzKw=="
+    }
+]
