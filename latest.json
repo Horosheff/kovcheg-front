@@ -1,8 +1,8 @@
 {
-  "version": "1.9.32",
+  "version": "1.9.33",
   "url": "https://rehabilitation-bills-recipe-executed.trycloudflare.com/KovchegVPN.exe",
-  "sha256": "bc5afe5f90f650b7ac0ffa74541d8c0b138d86f865da485c19e8b536e0823037",
+  "sha256": "579d75407e50ce0c7e41ccdd235a1e955e64b9bcf4137f54a2a0fbc8a5380c70",
   "size": 71131217,
-  "notes": "YouTube/голос/Cursor больше не душатся: видео и UDP мимо туннеля, DNS напрямую, вход XHTTP. Выйди из трея, открой снова, сфера.",
-  "sig": "MEYCIQCWe3lVZyO59E56LvB9eIZC2bE0+zgVPb1sguy5xsQROgIhAMUrmJ80YtbPwTVec/TrHdsadfGsPnhggiBC19AANAuF"
+  "notes": "Прямая труба: сначала IPv6 на наш сервер, Cloudflare только если v6 нет. Выйди из трея, сфера.",
+  "sig": "MEQCICtKPL/a5Wg6T0IYWS8FutMWLED00SjOeVIQ1Fm1n700AiBqfc0VTpughfHYWfYY5HYwQ0KmDotUyEqwxV7QkUtnNw=="
 }
