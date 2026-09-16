@@ -4,5 +4,5 @@
   "sha256": "abd02c9159b997c79bbde725cf4f3b7ba2997386686665d594ed03ae1e1a0bff",
   "size": 71153233,
   "notes": "TUN больше не откатывается на HTTPS-эхо: если ss-b-alt уже Финляндия и маршруты на месте — сфера остаётся. DNS через 1.1.1.1 в трубе. Выйди из трея, обновись, сфера.",
-  "sig": "PLACEHOLDER"
+  "sig": "MEUCIQDnVYfSIA3IHXDdIqWUwCPAf5pGYuyNggyabrFLtFoSnwIgTJZEhL1uBffLGr3ATRiHUDg2dpgeJ/LXdTHu7wXcOZU="
 }
