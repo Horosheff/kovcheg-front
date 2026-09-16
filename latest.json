@@ -1,8 +1,8 @@
 {
-  "version": "1.9.33",
-  "url": "https://rehabilitation-bills-recipe-executed.trycloudflare.com/KovchegVPN.exe",
-  "sha256": "579d75407e50ce0c7e41ccdd235a1e955e64b9bcf4137f54a2a0fbc8a5380c70",
-  "size": 71131217,
-  "notes": "Прямая труба: сначала IPv6 на наш сервер, Cloudflare только если v6 нет. Выйди из трея, сфера.",
-  "sig": "MEQCICtKPL/a5Wg6T0IYWS8FutMWLED00SjOeVIQ1Fm1n700AiBqfc0VTpughfHYWfYY5HYwQ0KmDotUyEqwxV7QkUtnNw=="
+  "version": "1.9.34",
+  "url": "http://31.76.2.87/KovchegVPN.exe",
+  "sha256": "df6b454d3afd5796f9f108be1ccfdc55dfe56e47aa340790ee16738318880bc3",
+  "size": 71132753,
+  "notes": "Новый VPS Финляндия: Reality :443, не Cloudflare. Выйди из трея полностью, замени exe, сфера. 1.9.33 сам это не подтянет.",
+  "sig": "MEUCIH5TnNmI/T8l5u5tgRyvi7FXqFuH7fsUZ+pTGqJjHw2hAiEA62Yv1mXhlDr4AzWxXlz//3Fg5MEShkaMtUc4dtzR9xA="
 }
