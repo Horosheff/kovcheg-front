@@ -1,8 +1,8 @@
 {
-  "version": "1.9.55",
+  "version": "1.9.56",
   "url": "http://31.76.66.64/KovchegVPN.exe",
-  "sha256": "0c7e2d16fe4ca6dff63d0f6bcdaf1ca5386f22a2181304204500d4db7d048782",
-  "size": 71146577,
-  "notes": "Сайты не открывались при подключено: DNS роутера травили в 8.47. Теперь DNS через трубу. Выйди из трея, обновись, сфера.",
-  "sig": "MEYCIQDYLuqfJ6HU3so84qDOenM45xEoPuy/pDnEQwC3SwySWAIhAL/XNsCabzTEt33Fveq3f1+pVSywwwBXj0//xzVl14L9"
+  "sha256": "0328f243050787c6d8e802dbacabcf73c229c07416b173e07839bb3721df4473",
+  "size": 71147601,
+  "notes": "Сначала жило, потом всё падало: Windows сам открывал DoT на 1.1.1.1 пачкой TCP. Выйди из трея, обновись, сфера.",
+  "sig": "MEUCIQCfuD3gtCQ3C+fmFNzjEEfekemIf+bZ4YjcDh5CqZ84nwIgGyfNk56l+ndZn0HLPt5zBeqPcL64u7Fyi58ZE8MxTlQ="
 }
