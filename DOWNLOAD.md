@@ -1,6 +1,6 @@
 # KovchegVPN download
 
-Сборка **1.9.43** — `31.76.66.64` живой (ss-b). Сторож больше не откатывает готовый TUN.
+Сборка **1.9.44** — труба `31.76.66.64:2053`. TUN не смотрит отравленный ipify.
 
 https://technical-bull-shoe-pierre.trycloudflare.com/KovchegVPN.exe
 

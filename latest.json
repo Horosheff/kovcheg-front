@@ -1,8 +1,8 @@
 {
-  "version": "1.9.43",
+  "version": "1.9.44",
   "url": "https://technical-bull-shoe-pierre.trycloudflare.com/KovchegVPN.exe",
-  "sha256": "93b8c2e3ed45048e3ea751c6377038cab1f7340bc1ebd2b867947a7b7b5e413c",
+  "sha256": "4a58e2669209a3eeb91397ecb3bf525c4ede766a1d4570fac3f9c3063899d0f0",
   "size": 71148625,
-  "notes": "Новый IP 31.76.66.64 живой (ss-b). Сторож больше не откатывает готовый TUN из-за логов. Выйди из трея, обновись, сфера.",
-  "sig": "MEUCIDEJrtI1jOyucoy/qYkIqejzwRJ9BCnCb12nSqM+j0JCAiEAmo7ArIJyVZYGHwKhj+vPsb3KddS2hByIWPBq7OhHkuQ="
+  "notes": "TUN больше не смотрит отравленный ipify. Труба 31.76.66.64:2053. Выйди из трея, обновись, сфера.",
+  "sig": "MEUCIHjuT0nc+xKkhqUwmAUutj+sRUbrwUc7Oaor1hMSZjUuAiEA6UqJY1TPBXaAwASWfs1lx8vNRZT1B47k39YGcmd9Rh0="
 }
