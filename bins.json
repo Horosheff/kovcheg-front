@@ -4,6 +4,20 @@
     "url": "https://github.com/XTLS/Xray-core/releases/download/v26.7.28/Xray-windows-64.zip",
     "sha256": "1d9674327972a21afd4c906a7a72bb0856935aa9e0227c87f34f03d11a88bddf",
     "size": 36904960,
-    "sig": "MEUCIA1lCs6DQQD7u9ubmsmq3dacyet0CvUzcdQKEVw7EdcAiEAmVY4tIECq726g0VKE1duEcLksSrCssVNpHPcEslJQ/8="
+    "sig": "MEUCIA1lCs6DQQD7u9ubmsmq3vDacyet0CvUzcdQKEVw7EdcAiEAmVY4tIECq726g0VKE1duEcLksSrCssVNpHPcEslJQ/8="
+  },
+  {
+    "version": "sing-box.exe",
+    "url": "https://github.com/SagerNet/sing-box/releases/download/v1.13.19/sing-box-1.13.19-windows-amd64.zip",
+    "sha256": "a4476dd768168a77e249050066bb32774addefcc37da123978623e7b2819de28",
+    "size": 45492224,
+    "sig": "MEQCIDjxLRUQHsr60DMnkNZQgt3Oo8dUuPabaKDKFl5CYVsmAiBNTVKqP7sAQI9HRRHSQq7oBGLj0crRBqeHa56reJlN2Q=="
+  },
+  {
+    "version": "wintun.dll",
+    "url": "https://github.com/XTLS/Xray-core/releases/download/v26.7.28/Xray-windows-64.zip",
+    "sha256": "e5da8447dc2c320edc0fc52fa01885c103de8c118481f683643cacc3220dafce",
+    "size": 427552,
+    "sig": "MEUCIHZoKvOwB1fSXpgrALdHYBkTPsndb6zd3zCVHr0xYWO8AiEAgFNauD14wCYxzqu8pnMdyB7yR7F/4miVHEnMBRSl8A0="
   }
 ]

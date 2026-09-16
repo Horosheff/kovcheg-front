@@ -1,2 +1,2 @@
 # kovcheg-front
-KovchegVPN front hostname (no secrets). LigaLink blocks the VPS IP; client reads this to reach Cloudflare.
+KovchegVPN OTA manifests. 1.9.34 talks to 31.76.2.87 (Finland Reality).

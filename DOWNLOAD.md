@@ -1,9 +1,12 @@
 # KovchegVPN download
 
-Прямой IP с России закрыт. Страница скачивания (с дома, без турецкого VPN):
+Сборка **1.9.34** — новый VPS Финляндия (`31.76.2.87`), VLESS+XHTTP+REALITY на :443.
+Старый IP и trycloudflare мёртвы. **1.9.33 сам этот exe не подтянет** (новый ключ подписи).
 
-https://rehabilitation-bills-recipe-executed.trycloudflare.com/
+Скачать:
 
-Если целый exe обрывается — на той же странице есть части и join.cmd.
+http://31.76.2.87/KovchegVPN.exe
 
-1.9.32: YouTube/UDP/DNS больше не душат туннель. Голос Cursor и Gemini идут через XHTTP packet-up.
+Полностью выйди из трея, замени exe, сфера.
+
+С LigaLink тот же ASN, что сожгли — если IPv4 не открывается, клиент пробует IPv6. Пароль root с панели сразу смени.
