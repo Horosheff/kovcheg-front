@@ -1,8 +1,8 @@
 {
-  "version": "1.9.36",
+  "version": "1.9.37",
   "url": "https://technical-bull-shoe-pierre.trycloudflare.com/KovchegVPN.exe",
-  "sha256": "331159184a259a45e79f3ded026b4d6a2389724f08863e82966799dfc7e2b329",
+  "sha256": "1c8caa6a8408f74e812bf961844113e190f21f286bff74de9ce85d2e2e60d2f6",
   "size": 71141457,
-  "notes": "1.9.36: TUN с дома не вставал — /32 на VPS не цеплялся к 192.168.0.1. Сам находит шлюз и вешает обход. Выйди из трея, обновись, сфера.",
-  "sig": "MEYCIQDBKqC3nV1ZgtIzUx6Hfwy6svWZoDfsHL+zbpOtuSlAUQIhAONoBSnFSyQm9dHtfg2Rq2jbJLtHXz4UlhXX2ZbEC5oS"
+  "notes": "1.9.37: Cloudflare только запас. Сначала прямой SS :2053, QUIC глушим — транскрибатор Cursor по TCP. Выйди из трея, обновись, сфера.",
+  "sig": "MEQCIEqKMUYk0NowWcEERZYFSyM3jOmnYAacQZSFZYmpB8bnAiBorkesAkdEh4002LZ+bSSHrSJsbEqO3TgH2Xu/EsfulA=="
 }

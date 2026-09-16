@@ -1,9 +1,8 @@
 # KovchegVPN download
 
-Сборка **1.9.36** — TUN с дома не вставал (`host=нет`): маршрут /32 на VPS не цеплялся к `192.168.0.1`.
-Клиент сам находит LAN-шлюз и вешает обход на VPS, 1.1.1.1 и Cloudflare.
+Сборка **1.9.37** — Cloudflare только запас. С дома сначала прямой Shadowsocks :2053.
 
-Скачать (с дома, без турецкого VPN):
+Скачать:
 
 https://technical-bull-shoe-pierre.trycloudflare.com/KovchegVPN.exe
 
