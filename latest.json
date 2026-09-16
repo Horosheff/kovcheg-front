@@ -1,8 +1,8 @@
 {
-  "version": "1.9.51",
+  "version": "1.9.52",
   "url": "http://31.76.66.64/KovchegVPN.exe",
-  "sha256": "1f368dd8211522016af9b010734bf0a6321f3224fce3001488a01b4d70526274",
-  "size": 67417951,
-  "notes": "Окно открывается сразу после UAC, без второго запуска. Скачай этот файл, не старый ярлык.",
-  "sig": "MEQCIBStVxig9v6M7xJVTif4U3Twv69PQz5iroSPbzAn6IGnAiAagIELTJ60Gku/c9SuHKeMPV+DExeAh6g6MqgCCFl75Q=="
+  "sha256": "e92bce6e55a3dcdf874a65452be780bc50d1b90f74e8de04358ee1134c931c85",
+  "size": 67416415,
+  "notes": "Диалог 1.9.52 затем непрозрачное окно. UAC только на сферу. Скачай этот файл.",
+  "sig": "MEUCIQDuH7vvNsgEkF3tGDs+iK6BNyhmAvTHSfCt0KDIMbRzzgIgH2Hnm+Y+ga4TXE9pe3l5oFJJFkjfjOfq4pJn7Ksn9UQ="
 }
