@@ -1,8 +1,8 @@
 {
-  "version": "1.9.49",
+  "version": "1.9.50",
   "url": "http://31.76.66.64/KovchegVPN.exe",
-  "sha256": "2ef55621312c4f611e351b5d82a8a47bd16c30af46c47fa0ede08672cbddc1da",
-  "size": 142323671,
-  "notes": "Вернул логику 1.9.44: TUN вставал. Только IP 31.76.66.64, без Cloudflare. TrustedTunReady — не откатывает живой TUN.",
-  "sig": "MEUCIQCtVhBMt4LozRgBWAhqV2emeyX8DWL1PIJS8qhcAIgZbJW7oeTb1Lh08q4Qt/BS8haMQBvPzxCwP8aT2Irq48="
+  "sha256": "eb79fc9035c268359434a57d58db6bac2d45045bcab8e02cacbc1a2e851b081e",
+  "size": 67417439,
+  "notes": "Окно снова открывается после UAC. Скачай заново, старый 1.9.49 мог выйти молча.",
+  "sig": "MEQCIG8Ky58k/FU/z7xi67yRGK6Pv21SC0ia90QmJMG/HPpWAiA4sHCrxMjvIKvJ6pe/sch2ubINTm48xURWypDdM2cu0w=="
 }
