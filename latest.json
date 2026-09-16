@@ -1,8 +1,8 @@
 {
-  "version": "1.9.35",
+  "version": "1.9.36",
   "url": "https://technical-bull-shoe-pierre.trycloudflare.com/KovchegVPN.exe",
-  "sha256": "3c0404d36883fce77e8988827fd78d660d6ca5fa72f9d1304e535654be8137f1",
-  "size": 71132753,
-  "notes": "1.9.35: с дома Reality не поднималось — убрал нарезку hello, запас SS и Cloudflare WS. Выйди из трея, обновись, сфера.",
-  "sig": "MEUCIHvwSIDlsmsxzj4MwNUVczxoOis2yP5kSJS5wETdclJ9AiEAjwWYq19RyB33xoxKP3w4C0U/ccSUfu62F6gb3EoFXOM="
+  "sha256": "331159184a259a45e79f3ded026b4d6a2389724f08863e82966799dfc7e2b329",
+  "size": 71141457,
+  "notes": "1.9.36: TUN с дома не вставал — /32 на VPS не цеплялся к 192.168.0.1. Сам находит шлюз и вешает обход. Выйди из трея, обновись, сфера.",
+  "sig": "MEYCIQDBKqC3nV1ZgtIzUx6Hfwy6svWZoDfsHL+zbpOtuSlAUQIhAONoBSnFSyQm9dHtfg2Rq2jbJLtHXz4UlhXX2ZbEC5oS"
 }
