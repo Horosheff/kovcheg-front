@@ -1,8 +1,8 @@
 {
-  "version": "1.9.53",
+  "version": "1.9.54",
   "url": "http://31.76.66.64/KovchegVPN.exe",
-  "sha256": "7c066940649a968c22b919126c1cd9d34d0866190020a583bc59bf3fe2156e02",
-  "size": 71142993,
-  "notes": "Исправлена сборка: нативные DLL WPF снова внутри exe. Окно открывается. Скачай заново.",
-  "sig": "MEUCIEraviQturnU0ghQEanU0BFl749z1y3w533oZ2ixqyWBAiEA1yvaulcGpNmqo92fRaGdW5/wTnGJ7VP8/wgEzK1K+2A="
+  "sha256": "306b531852880abd5d2651afc22b87b396737c64870a8f5803962065a386aab0",
+  "size": 71144017,
+  "notes": "TUN не откатывается на молчащем эхо: если адаптер up и socks Финляндия — оставляем. Выйди из трея, обновись, сфера.",
+  "sig": "MEUCIQDyjnzLJ8DvLQmpYAvjUB6/hNuISZvDP53g+9a4XihZegIgaqeOZveHwceruAgp25nlwYzOvXGhxMyX5R13MuFHYUg="
 }
