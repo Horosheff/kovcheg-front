@@ -1,8 +1,8 @@
 {
-  "version": "1.9.45",
+  "version": "1.9.46",
   "url": "https://technical-bull-shoe-pierre.trycloudflare.com/KovchegVPN.exe",
-  "sha256": "c3b82f61cd12bedd4857ba1f53031a233591c95a748fb52ef2b3aaa3a51c3ad3",
-  "size": 71149137,
-  "notes": "DNS запрещённых сайтов больше не через роутер LigaLink. Ютуб/РФ напрямую, Cursor и зарубежное — через трубу. Выйди из трея, обновись, сфера.",
-  "sig": "MEQCICKp9osOzSWdJlq10yjL5b6lzvn9OVBtwGZfd2cwe79gAiAMr77jQJx5cbw661v+uTPPi5O5eHmBifyuJsJiaoWJCA=="
+  "sha256": "e846c6daec8b920b9a8ae3780f182dc39cd5957e4303a1c668bd282a6e96a762",
+  "size": 71152209,
+  "notes": "Эхо через TUN снова как в 1.9.44 (resolver local, без fake-ip). DNS Windows на время TUN — 1.1.1.1 через трубу, не роутер LigaLink. Ютуб/РФ напрямую, Cursor и зарубежное — через трубу. Выйди из трея, обновись, сфера.",
+  "sig": "MEUCICr8bAXs0syJCg+yS6eUlPQcWtQusXbANmzSTK/P/2lpAiEAryWSyrBSV9/9iQ5MZ9K1knhilt5nZsJvIc1RK4V7ppw="
 }
