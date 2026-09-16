@@ -1,8 +1,8 @@
 {
-  "version": "1.9.47",
-  "url": "https://technical-bull-shoe-pierre.trycloudflare.com/KovchegVPN.exe",
-  "sha256": "abd02c9159b997c79bbde725cf4f3b7ba2997386686665d594ed03ae1e1a0bff",
-  "size": 71153233,
-  "notes": "TUN больше не откатывается на HTTPS-эхо: если ss-b-alt уже Финляндия и маршруты на месте — сфера остаётся. DNS через 1.1.1.1 в трубе. Выйди из трея, обновись, сфера.",
-  "sig": "MEUCIQDnVYfSIA3IHXDdIqWUwCPAf5pGYuyNggyabrFLtFoSnwIgTJZEhL1uBffLGr3ATRiHUDg2dpgeJ/LXdTHu7wXcOZU="
+  "version": "1.9.49",
+  "url": "http://31.76.66.64/KovchegVPN.exe",
+  "sha256": "2ef55621312c4f611e351b5d82a8a47bd16c30af46c47fa0ede08672cbddc1da",
+  "size": 142323671,
+  "notes": "Вернул логику 1.9.44: TUN вставал. Только IP 31.76.66.64, без Cloudflare. TrustedTunReady — не откатывает живой TUN.",
+  "sig": "MEUCIQCtVhBMt4LozRgBWAhqV2emeyX8DWL1PIJS8qhcAIgZbJW7oeTb1Lh08q4Qt/BS8haMQBvPzxCwP8aT2Irq48="
 }
