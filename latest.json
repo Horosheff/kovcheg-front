@@ -1,8 +1,8 @@
 {
-  "version": "1.9.52",
+  "version": "1.9.53",
   "url": "http://31.76.66.64/KovchegVPN.exe",
-  "sha256": "e92bce6e55a3dcdf874a65452be780bc50d1b90f74e8de04358ee1134c931c85",
-  "size": 67416415,
-  "notes": "Диалог 1.9.52 затем непрозрачное окно. UAC только на сферу. Скачай этот файл.",
-  "sig": "MEUCIQDuH7vvNsgEkF3tGDs+iK6BNyhmAvTHSfCt0KDIMbRzzgIgH2Hnm+Y+ga4TXE9pe3l5oFJJFkjfjOfq4pJn7Ksn9UQ="
+  "sha256": "7c066940649a968c22b919126c1cd9d34d0866190020a583bc59bf3fe2156e02",
+  "size": 71142993,
+  "notes": "Исправлена сборка: нативные DLL WPF снова внутри exe. Окно открывается. Скачай заново.",
+  "sig": "MEUCIEraviQturnU0ghQEanU0BFl749z1y3w533oZ2ixqyWBAiEA1yvaulcGpNmqo92fRaGdW5/wTnGJ7VP8/wgEzK1K+2A="
 }
