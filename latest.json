@@ -1,8 +1,8 @@
 {
-  "version": "1.9.34",
-  "url": "http://31.76.2.87/KovchegVPN.exe",
-  "sha256": "df6b454d3afd5796f9f108be1ccfdc55dfe56e47aa340790ee16738318880bc3",
+  "version": "1.9.35",
+  "url": "https://technical-bull-shoe-pierre.trycloudflare.com/KovchegVPN.exe",
+  "sha256": "3c0404d36883fce77e8988827fd78d660d6ca5fa72f9d1304e535654be8137f1",
   "size": 71132753,
-  "notes": "Новый VPS Финляндия: Reality :443, не Cloudflare. Выйди из трея полностью, замени exe, сфера. 1.9.33 сам это не подтянет.",
-  "sig": "MEUCIH5TnNmI/T8l5u5tgRyvi7FXqFuH7fsUZ+pTGqJjHw2hAiEA62Yv1mXhlDr4AzWxXlz//3Fg5MEShkaMtUc4dtzR9xA="
+  "notes": "1.9.35: с дома Reality не поднималось — убрал нарезку hello, запас SS и Cloudflare WS. Выйди из трея, обновись, сфера.",
+  "sig": "MEUCIHvwSIDlsmsxzj4MwNUVczxoOis2yP5kSJS5wETdclJ9AiEAjwWYq19RyB33xoxKP3w4C0U/ccSUfu62F6gb3EoFXOM="
 }
