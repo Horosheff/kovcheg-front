@@ -1,8 +1,8 @@
 {
-  "version": "1.9.40",
+  "version": "1.9.41",
   "url": "https://technical-bull-shoe-pierre.trycloudflare.com/KovchegVPN.exe",
-  "sha256": "7952974a8b5ed66467fede258de3dcfcb3ae9904b4f74051d51c8d8dee3baaf4",
-  "size": 71143505,
-  "notes": "С дома IPv4 SS/Reality ТСПУ держит. Сначала IPv6, мёртвые входы по 2с, логи через socks. Выйди из трея, обновись, сфера.",
-  "sig": "MEUCIQCI/52QlSo/z+Q15G0j30KKWLLq1Em4/d+ObnkPnNENTQIgJ6H7blEVYTRlVmatIpPq/E0VlYdg75VfW9JVkESf5BQ="
+  "sha256": "f1253a5a3339ad58b164441914b6a24c860da274e0a2fe855c3d63cfeb343ab4",
+  "size": 71146065,
+  "notes": "С дома нет IPv6, IPv4 SS/Reality ТСПУ держит. 45 мин не гоняем мёртвую охоту — сразу CF. Логи через socks :10818. Geo на Cloudflare. Выйди из трея, обновись, сфера.",
+  "sig": "MEUCIFcpdFel4TafFd476ldDnNQqYwZvWH2wn+N3400x7sWRAiEA2iAmqhS8plR7qDMI2O/94BBkOVe/Ibkpdp2C4CgxgT8="
 }
