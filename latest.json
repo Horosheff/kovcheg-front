@@ -1,8 +1,8 @@
 {
-  "version": "1.9.39",
+  "version": "1.9.40",
   "url": "https://technical-bull-shoe-pierre.trycloudflare.com/KovchegVPN.exe",
-  "sha256": "b03be559ab9b761d9f09019733c7cc1fa615ea341912483d04567554035769dd",
-  "size": 71142481,
-  "notes": "Сфера больше не сидит на Cloudflare: сначала SS :2053, потом прямой XHTTP. CF WS — запас (trycloudflare не стримит XHTTP H2/H3).",
-  "sig": "MEUCIQDfTjRuGOhnKlbfpdTthT8FTJt0bk4bQr8541yPSMExXwIgFbxxHRAdlQX5kJdVZ5+wOyEG5bC2JsySNz8QeqwRRZU="
+  "sha256": "7952974a8b5ed66467fede258de3dcfcb3ae9904b4f74051d51c8d8dee3baaf4",
+  "size": 71143505,
+  "notes": "С дома IPv4 SS/Reality ТСПУ держит. Сначала IPv6, мёртвые входы по 2с, логи через socks. Выйди из трея, обновись, сфера.",
+  "sig": "MEUCIQCI/52QlSo/z+Q15G0j30KKWLLq1Em4/d+ObnkPnNENTQIgJ6H7blEVYTRlVmatIpPq/E0VlYdg75VfW9JVkESf5BQ="
 }
