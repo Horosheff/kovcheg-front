@@ -1,8 +1,8 @@
 {
-  "version": "1.9.38",
+  "version": "1.9.39",
   "url": "https://technical-bull-shoe-pierre.trycloudflare.com/KovchegVPN.exe",
-  "sha256": "e533f27c2e6f1f9547cc4fe0f6f00bd228f9518fea5b93078a12efec66f096ba",
-  "size": 71141969,
-  "notes": "1.9.38: TUN уже жил, ядро залипало на Cloudflare. DNS sing-box 1.13 починен, после сбоя пробую прямой SS. Выйди из трея, обновись, сфера.",
-  "sig": "MEYCIQDn22uKivAyAAE9sbexnbF/eTSq4K8SM3ucSjtK5TWorwIhAOyfDpGFwERxwINIuV4r8A+xwMC8UgupfPXGAaDJqJf+"
+  "sha256": "b03be559ab9b761d9f09019733c7cc1fa615ea341912483d04567554035769dd",
+  "size": 71142481,
+  "notes": "Сфера больше не сидит на Cloudflare: сначала SS :2053, потом прямой XHTTP. CF WS — запас (trycloudflare не стримит XHTTP H2/H3).",
+  "sig": "MEUCIQDfTjRuGOhnKlbfpdTthT8FTJt0bk4bQr8541yPSMExXwIgFbxxHRAdlQX5kJdVZ5+wOyEG5bC2JsySNz8QeqwRRZU="
 }
