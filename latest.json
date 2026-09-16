@@ -1,8 +1,8 @@
 {
-  "version": "1.9.44",
+  "version": "1.9.45",
   "url": "https://technical-bull-shoe-pierre.trycloudflare.com/KovchegVPN.exe",
-  "sha256": "4a58e2669209a3eeb91397ecb3bf525c4ede766a1d4570fac3f9c3063899d0f0",
-  "size": 71148625,
-  "notes": "TUN больше не смотрит отравленный ipify. Труба 31.76.66.64:2053. Выйди из трея, обновись, сфера.",
-  "sig": "MEUCIHjuT0nc+xKkhqUwmAUutj+sRUbrwUc7Oaor1hMSZjUuAiEA6UqJY1TPBXaAwASWfs1lx8vNRZT1B47k39YGcmd9Rh0="
+  "sha256": "c3b82f61cd12bedd4857ba1f53031a233591c95a748fb52ef2b3aaa3a51c3ad3",
+  "size": 71149137,
+  "notes": "DNS запрещённых сайтов больше не через роутер LigaLink. Ютуб/РФ напрямую, Cursor и зарубежное — через трубу. Выйди из трея, обновись, сфера.",
+  "sig": "MEQCICKp9osOzSWdJlq10yjL5b6lzvn9OVBtwGZfd2cwe79gAiAMr77jQJx5cbw661v+uTPPi5O5eHmBifyuJsJiaoWJCA=="
 }
