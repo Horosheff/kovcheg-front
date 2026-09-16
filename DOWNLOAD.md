@@ -1,12 +1,10 @@
 # KovchegVPN download
 
-Сборка **1.9.34** — новый VPS Финляндия (`31.76.2.87`), VLESS+XHTTP+REALITY на :443.
-Старый IP и trycloudflare мёртвы. **1.9.33 сам этот exe не подтянет** (новый ключ подписи).
+Сборка **1.9.35** — с дома Reality на новом IP не поднималось (TCP живой, хендшейк нет).
+Клиент без нарезки hello, запас Shadowsocks и Cloudflare WS.
 
-Скачать:
+Скачать (с дома, без турецкого VPN):
 
-http://31.76.2.87/KovchegVPN.exe
+https://technical-bull-shoe-pierre.trycloudflare.com/KovchegVPN.exe
 
 Полностью выйди из трея, замени exe, сфера.
-
-С LigaLink тот же ASN, что сожгли — если IPv4 не открывается, клиент пробует IPv6. Пароль root с панели сразу смени.

@@ -1,7 +1,6 @@
 {
-  "host": "rehabilitation-bills-recipe-executed.trycloudflare.com",
+  "host": "technical-bull-shoe-pierre.trycloudflare.com",
   "port": 443,
   "path": "/vlessws",
-  "ota": "https://rehabilitation-bills-recipe-executed.trycloudflare.com/latest.json",
-  "sig": "MEUCIB0NVpkDxCGW2aDbR0w3SLLXkiZhsG46PVyf7lfMUyWUAiEAoKW8530SBKItsmgbVugBxKy+mZqgzWlj8LGazFjOEuQ="
+  "sig": "MEYCIQCKUjqSVee6q/tfACs8UQ4nYCMptYrUFivsvUkn49Z+ogIhALsVvXnduNpldJwsPPokHTWc4FhGWZwE50RU/q53pWpI"
 }
