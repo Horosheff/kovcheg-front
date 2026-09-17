@@ -1,8 +1,8 @@
 {
-  "version": "1.9.56",
+  "version": "1.9.57",
   "url": "http://31.76.66.64/KovchegVPN.exe",
-  "sha256": "0328f243050787c6d8e802dbacabcf73c229c07416b173e07839bb3721df4473",
-  "size": 71147601,
-  "notes": "Сначала жило, потом всё падало: Windows сам открывал DoT на 1.1.1.1 пачкой TCP. Выйди из трея, обновись, сфера.",
-  "sig": "MEUCIQCfuD3gtCQ3C+fmFNzjEEfekemIf+bZ4YjcDh5CqZ84nwIgGyfNk56l+ndZn0HLPt5zBeqPcL64u7Fyi58ZE8MxTlQ="
+  "sha256": "879e95190dd6c3a8c1f953d08a2e03d359a2a3079a6d613b9df2d0f693b858dd",
+  "size": 71148113,
+  "notes": "DNS спрашивал сам TUN — сайты не открывались, сфера висела 2 мин. Выйди из трея, обновись, сфера.",
+  "sig": "MEQCIC5MQLw70pYtFX/HQ9vDUeQXwYuc1MxYBN2SNjQBI2QaAiA9yBLGz32Fo+PgZDu8Sj3rfN2PYIwNY4sEIEDKFXGjpg=="
 }
