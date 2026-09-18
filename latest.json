@@ -1,8 +1,8 @@
 {
-  "version": "1.9.70",
+  "version": "1.9.72",
   "url": "http://31.76.66.64/KovchegVPN.exe",
-  "sha256": "dc264aed1164f9caa6095edf3a7ceea113e5bdaf289ba7c3daedfceea343a061",
-  "size": 71174225,
-  "notes": "Сначала снимаю старый TUN, потом ядро. Выйди из трея, обновись, сфера.",
-  "sig": "MEYCIQDnNiCXMlWBfSbZ4epp8t76kBlY99EjAp6XHM2xulQzNwIhANj1t0XxkQb8nm5CrQO9WbTjEtCCnyb16oM60crTXfDo"
+  "sha256": "c763a4930448c92d0de847d271564d0f73bed629949d3cc0c3f6ab2301e07670",
+  "size": 71178321,
+  "notes": "SS с дома жрёт handshake. Свой nginx :80 (не Cloudflare) и свежий :8444. Выйди из трея, обновись, сфера.",
+  "sig": "MEYCIQDlLEkjGDZ+3YAXAhH+RPbJm3ijK/w7oQ1tvN/NvMiHxAIhAJ68iv8aFFIP/um6Pky79vwwnKAeMVCwGg09q2n1Blst"
 }
