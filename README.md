@@ -1,2 +1,7 @@
 # kovcheg-front
-KovchegVPN OTA manifests. 1.9.34 talks to 31.76.2.87 (Finland Reality).
+
+Публичный OTA для KovchegVPN: `latest.json`, `bins.json`, GitHub Release с exe/zip.
+
+Это **не исходники клиента**. Исходный проект Windows (WPF .NET 8, 1.9.77) лежит в приватном репозитории:
+
+https://github.com/Horosheff/KovchegVPN
