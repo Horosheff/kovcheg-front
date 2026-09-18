@@ -1,8 +1,8 @@
 {
-  "version": "1.9.60",
+  "version": "1.9.61",
   "url": "http://31.76.66.64/KovchegVPN.exe",
-  "sha256": "93d3b124cfbd505cc486709a6a55694c26a4af933a3d05fc9b5037505a7a81b8",
-  "size": 71154257,
-  "notes": "Труба была забита: 2000 TCP и почти нет HTTPS. Выйди из трея, обновись, сфера.",
-  "sig": "MEUCIQDK3p9W9CdT+Hz8dJjfNMSVYphG9V6aItBczHotIO/AuAIgYJ8YewQg5hJ2ko7Kq5UUCGDxa/mkjrf6TiAE3x4FayA="
+  "sha256": "72c9c194d6605bb3041d9369e33a5252e820a3b56fdb96315343ee90ac692354",
+  "size": 71145553,
+  "notes": "Откат на рабочий клиент до экспериментов с DNS. При старте вернёт интернет. Выйди из трея, обновись, сфера.",
+  "sig": "MEUCIFl2ENQFTuysvG54LyiNstTQn6QQam7s09MAPfA7XKZdAiEA5QPqQf2nMIOOO/OFltwQtcoJh6vgGmmfZKBYBsyMTec="
 }
