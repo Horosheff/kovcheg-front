@@ -1,0 +1,36 @@
+name: publish-exe
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/publish-exe.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch 1.9.77 exe from VPS TLS
+        run: |
+          set -euo pipefail
+          curl -fL --retry 8 --retry-delay 3 --connect-timeout 20 \
+            -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36" \
+            -o KovchegVPN.exe \
+            "https://31.76.66.64.sslip.io/KovchegVPN.exe"
+          echo "59e3d86faa0ae94e69707848d8b542adc58e34166ca6f0453df62f6b1ae6a14a  KovchegVPN.exe" | sha256sum -c
+          test "$(stat -c%s KovchegVPN.exe)" -eq 71199825
+
+      - name: Publish GitHub Release v1.9.77
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          gh release delete v1.9.77 --repo Horosheff/kovcheg-front --yes || true
+          gh release create v1.9.77 KovchegVPN.exe \
+            --repo Horosheff/kovcheg-front \
+            --title "KovchegVPN 1.9.77" \
+            --notes "Direct exe. LigaLink blocks VPS TLS/HTTP from home LAN; GitHub HTTPS already works." \
+            --latest
