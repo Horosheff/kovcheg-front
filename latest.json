@@ -1,8 +1,8 @@
 {
-  "version": "1.9.63",
+  "version": "1.9.64",
   "url": "http://31.76.66.64/KovchegVPN.exe",
-  "sha256": "637e0456cda9921d13c118c5c8c51295dbccf023fda813e96752427861587de1",
-  "size": 71157329,
-  "notes": "Только Shadowsocks, без xHTTP. v2rayN гасится. Выйди из трея, обновись, сфера.",
-  "sig": "MEYCIQCuthHoY3DAxa3CLxIyXUS8U++mdSOMBqEP6R4Zg3E77gIhANQDeIml3s4XrK6AcIt7eT6NpNRCQ0D0Vgv5jnJmNjv2"
+  "sha256": "cd5ff3a949f19902891fd331af6e4c3e8cf519d27c629a0b06cf07ff480667ff",
+  "size": 71171153,
+  "notes": "Диагностика каждую минуту: DNS, HTTP/1.1 vs HTTP/2, Instagram/Cursor. Охота SS дольше. Выйди из трея, обновись, сфера.",
+  "sig": "MEUCIQDHEh82PImmHpsNSEJrZcxwz8sy826ej6l7cWA8oz1rpQIge74+5XLYCD06XojrI2M4oL+5hL+zSbu0HBFe0+PZQrc="
 }
