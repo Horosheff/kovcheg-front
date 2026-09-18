@@ -1,8 +1,8 @@
 {
-  "version": "1.9.61",
+  "version": "1.9.62",
   "url": "http://31.76.66.64/KovchegVPN.exe",
-  "sha256": "72c9c194d6605bb3041d9369e33a5252e820a3b56fdb96315343ee90ac692354",
-  "size": 71145553,
-  "notes": "Откат на рабочий клиент до экспериментов с DNS. При старте вернёт интернет. Выйди из трея, обновись, сфера.",
-  "sig": "MEUCIFl2ENQFTuysvG54LyiNstTQn6QQam7s09MAPfA7XKZdAiEA5QPqQf2nMIOOO/OFltwQtcoJh6vgGmmfZKBYBsyMTec="
+  "sha256": "86d69766137a5103be6b587196046205d870f2bdf9d37291e9a331c3b803f052",
+  "size": 71157329,
+  "notes": "Instagram и Cursor IDE через Финляндию. Карточка больше не Польша. Выйди из трея, обновись, сфера.",
+  "sig": "MEUCIBh2OqN2TSwNjGqi560JYFz2HVFXxyUTz+LZ48Rjr4V8AiEAzZ/KTp15ovajLxzn1dElo4um7WoH7C00gOTAtlZW/cg="
 }
