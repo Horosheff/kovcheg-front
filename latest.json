@@ -1,8 +1,8 @@
 {
-  "version": "1.9.57",
+  "version": "1.9.58",
   "url": "http://31.76.66.64/KovchegVPN.exe",
-  "sha256": "879e95190dd6c3a8c1f953d08a2e03d359a2a3079a6d613b9df2d0f693b858dd",
-  "size": 71148113,
-  "notes": "DNS спрашивал сам TUN — сайты не открывались, сфера висела 2 мин. Выйди из трея, обновись, сфера.",
-  "sig": "MEQCIC5MQLw70pYtFX/HQ9vDUeQXwYuc1MxYBN2SNjQBI2QaAiA9yBLGz32Fo+PgZDu8Sj3rfN2PYIwNY4sEIEDKFXGjpg=="
+  "sha256": "198bff9939dc3464bb54aa93253539eebb3be44a0f6ed50802972bae57bbaa47",
+  "size": 71152721,
+  "notes": "Сфера «подключено», а сайты еле открываются: DNS шёл в мёртвый 10.0.85.2 и Tailscale, UDP утекал мимо трубы. Выйди из трея, обновись, сфера.",
+  "sig": "MEUCIG/QpJIOZbeJHa/F5o364LxyBxWf7zUOP8q57HIwTefCAiEA2J8OpyUgPzcVI5jjeo2uqnReGkDs9zgb2VQpyc/zEDE="
 }
