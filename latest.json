@@ -1,8 +1,8 @@
 {
-  "version": "1.9.76",
-  "url": "http://31.76.66.64/KovchegVPN.exe",
-  "sha256": "4923f90b388b6c4949852889c4a376dc40900ed9b2c9bda5c1493130695f9859",
-  "size": 71197777,
-  "notes": "Критерий: чужой VPN OFF, icanhazip=31.76.2.87, Cursor жив. Охота с LAN, не TAP. Выйди из трея, обновись, сфера. Когда финский IP — гаси OpenVPN.",
-  "sig": "MEYCIQCLT+B2nEu/iDMs1/QeINkE+qgud/rFDnMVzE4AX6wwxwIhANM1AQANdQqSk0dSZt1pTTLIaNauhaTbFZ3lii8JYeSu"
+  "version": "1.9.77",
+  "url": "https://31.76.66.64.sslip.io/KovchegVPN.exe",
+  "sha256": "59e3d86faa0ae94e69707848d8b542adc58e34166ca6f0453df62f6b1ae6a14a",
+  "size": 71199825,
+  "notes": "LigaLink портит SS/Reality с LAN. Теперь настоящий TLS на 66.64:443. Выйди из трея, обновись, сфера. Когда icanhazip финский — гаси OpenVPN.",
+  "sig": "MEUCIC/RhI96wMzn4q0WIuOpTdYmtzUgQy18Ykj8eL2w7blhAiEAi6+oiybVw8lXaTxBxfZ0DCHTEwTVoSDNJei7uycOM8w="
 }
