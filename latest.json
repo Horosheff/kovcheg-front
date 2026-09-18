@@ -1,8 +1,8 @@
 {
-  "version": "1.9.69",
+  "version": "1.9.70",
   "url": "http://31.76.66.64/KovchegVPN.exe",
-  "sha256": "cacd5b065f6b762aebf76b158a25b77cd8c1aa8fdd0167d20c10ab0507016d27",
-  "size": 71172177,
-  "notes": "Instagram и Cursor без mux, остальное mux, труба :9443. Выйди из трея, обновись, сфера.",
-  "sig": "MEUCIHaNs4Ktn1T/tSKJ0qUW/VFKVTY2av1WZsimhR63mkLoAiEA6AfZBxA3i1z7Fqr6qU5NdmIasPJOObPSWk/M7vrZbqs="
+  "sha256": "dc264aed1164f9caa6095edf3a7ceea113e5bdaf289ba7c3daedfceea343a061",
+  "size": 71174225,
+  "notes": "Сначала снимаю старый TUN, потом ядро. Выйди из трея, обновись, сфера.",
+  "sig": "MEYCIQDnNiCXMlWBfSbZ4epp8t76kBlY99EjAp6XHM2xulQzNwIhANj1t0XxkQb8nm5CrQO9WbTjEtCCnyb16oM60crTXfDo"
 }
