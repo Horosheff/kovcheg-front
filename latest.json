@@ -1,8 +1,8 @@
 {
-  "version": "1.9.67",
+  "version": "1.9.68",
   "url": "http://31.76.66.64/KovchegVPN.exe",
-  "sha256": "cbed25cd1754eaf0a60ee68a429ab9ae0008e3b3776d90f06f0c857d302d6044",
-  "size": 71171153,
-  "notes": "Telegram через TUN, как Cursor. Выйди из трея, обновись, сфера.",
-  "sig": "MEUCIGB0Jk7Yte2UQSiZ2coBgQgUGW+QEKpqiNL7It8rAoMRAiEAiljIYFWHgM3K7Uz5SG5BCcQVKOhyhmGfAvfwRm3v1RM="
+  "sha256": "962c71b71d1ac9f9392e274f0018a7e415ac57fb1985887dffa868bb91d3118a",
+  "size": 71172177,
+  "notes": "Telegram через TUN, mux отдельно — Instagram/Cursor без mux. Выйди из трея, обновись, сфера.",
+  "sig": "MEUCIQCdQqOnHC7sSbdyF1d0j/oStdJgLoHb2Z7VV+bl1AmdlQIgfJgXKQVU2n9LlDLSxVvmMFgjr8oJjH5U2TssdTDWzhE="
 }
