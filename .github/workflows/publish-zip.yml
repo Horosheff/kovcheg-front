@@ -1,0 +1,88 @@
+name: publish-zip
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/publish-zip.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  zip:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Assemble 1.9.77 kit zip
+        run: |
+          set -euo pipefail
+          mkdir -p kit/bin
+          curl -fL --retry 8 --retry-delay 3 -A "Mozilla/5.0" \
+            -o kit/KovchegVPN.exe \
+            "https://github.com/Horosheff/kovcheg-front/releases/download/v1.9.77/KovchegVPN.exe"
+          echo "59e3d86faa0ae94e69707848d8b542adc58e34166ca6f0453df62f6b1ae6a14a  kit/KovchegVPN.exe" | sha256sum -c
+
+          curl -fL --retry 8 --retry-delay 3 -o /tmp/xray.zip \
+            "https://github.com/XTLS/Xray-core/releases/download/v26.7.28/Xray-windows-64.zip"
+          curl -fL --retry 8 --retry-delay 3 -o /tmp/sb.zip \
+            "https://github.com/SagerNet/sing-box/releases/download/v1.13.19/sing-box-1.13.19-windows-amd64.zip"
+
+          python3 <<'PY'
+          import hashlib, zipfile, os
+          from pathlib import Path
+
+          def sha(p):
+              h = hashlib.sha256()
+              with open(p, 'rb') as f:
+                  for chunk in iter(lambda: f.read(1 << 20), b''):
+                      h.update(chunk)
+              return h.hexdigest()
+
+          def extract_named(zpath, name, dest):
+              with zipfile.ZipFile(zpath) as z:
+                  hits = [e for e in z.infolist() if e.filename.replace('\\','/').rstrip('/').split('/')[-1].lower() == name.lower() and not e.is_dir()]
+                  if not hits:
+                      raise SystemExit(f'{name} not in {zpath}: {[e.filename for e in z.infolist()][:20]}')
+                  hits.sort(key=lambda e: e.filename.count('/'))
+                  with z.open(hits[0]) as src, open(dest, 'wb') as out:
+                      out.write(src.read())
+
+          extract_named('/tmp/xray.zip', 'xray.exe', 'kit/bin/xray.exe')
+          extract_named('/tmp/xray.zip', 'wintun.dll', 'kit/bin/wintun.dll')
+          extract_named('/tmp/sb.zip', 'sing-box.exe', 'kit/bin/sing-box.exe')
+          checks = {
+              'kit/bin/xray.exe': ('1d9674327972a21afd4c906a7a72bb0856935aa9e0227c87f34f03d11a88bddf', 36904960),
+              'kit/bin/sing-box.exe': ('a4476dd768168a77e249050066bb32774addefcc37da123978623e7b2819de28', 45492224),
+              'kit/bin/wintun.dll': ('e5da8447dc2c320edc0fc52fa01885c103de8c118481f683643cacc3220dafce', 427552),
+          }
+          for p, (expect, size) in checks.items():
+              got = sha(p)
+              st = os.path.getsize(p)
+              print(p, st, got)
+              if got != expect or st != size:
+                  raise SystemExit(f'sha/size mismatch {p}')
+          Path('kit/README.txt').write_text(
+              'KovchegVPN 1.9.77\n\n'
+              '1. Полностью выйди из Kovcheg в трее.\n'
+              '2. Распакуй этот ZIP в любую папку.\n'
+              '3. Запусти KovchegVPN.exe.\n'
+              '4. Сфера. Когда icanhazip финский \u2014 гаси чужой OpenVPN.\n',
+              encoding='utf-8'
+          )
+          PY
+
+          rm -f KovchegVPN.zip
+          (cd kit && zip -r -9 ../KovchegVPN.zip KovchegVPN.exe bin README.txt)
+          ls -l KovchegVPN.zip
+          python3 - <<'PY'
+          import zipfile
+          z = zipfile.ZipFile('KovchegVPN.zip')
+          for i in z.infolist():
+              print(f'{i.file_size:10d}  {i.filename}')
+          PY
+
+      - name: Upload zip to GitHub Release v1.9.77
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release upload v1.9.77 KovchegVPN.zip --repo Horosheff/kovcheg-front --clobber
