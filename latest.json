@@ -1,8 +1,9 @@
 {
   "version": "1.9.77",
   "url": "https://github.com/Horosheff/kovcheg-front/releases/download/v1.9.77/KovchegVPN.exe",
+  "url_zip": "https://github.com/Horosheff/kovcheg-front/releases/download/v1.9.77/KovchegVPN.zip",
   "sha256": "59e3d86faa0ae94e69707848d8b542adc58e34166ca6f0453df62f6b1ae6a14a",
   "size": 71199825,
-  "notes": "OTA через GitHub HTTPS — LigaLink режет sslip и HTTP до VPS. Выйди из трея, обновись или скачай exe с GitHub. Сфера. Когда icanhazip финский — гаси OpenVPN.",
+  "notes": "OTA через GitHub HTTPS — LigaLink режет sslip и HTTP до VPS. Выйди из трея, обновись или скачай ZIP с GitHub. Сфера. Когда icanhazip финский — гаси OpenVPN.",
   "sig": "MEQCIAqSFY/YUrclZRIzMzFc2u4LIBT4rN+xiF+OwO7vCe6WAiAnp985sgP2QxL4LLfuTeMb+GI7WCkg7/xVZWLC7l5/Mg=="
 }
