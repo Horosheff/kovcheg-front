@@ -1,8 +1,8 @@
 {
-  "version": "1.9.72",
+  "version": "1.9.73",
   "url": "http://31.76.66.64/KovchegVPN.exe",
-  "sha256": "c763a4930448c92d0de847d271564d0f73bed629949d3cc0c3f6ab2301e07670",
+  "sha256": "db06c5c05e4e6af481b72aa1a8ebc74f43a0bd54dd04ae3debfe7e5573e856eb",
   "size": 71178321,
-  "notes": "SS с дома жрёт handshake. Свой nginx :80 (не Cloudflare) и свежий :8444. Выйди из трея, обновись, сфера.",
-  "sig": "MEYCIQDlLEkjGDZ+3YAXAhH+RPbJm3ijK/w7oQ1tvN/NvMiHxAIhAJ68iv8aFFIP/um6Pky79vwwnKAeMVCwGg09q2n1Blst"
+  "notes": "SS через Tailscale 100.87.128.98, tun-off не сносит OpenVPN. Выйди из трея, обновись. TAP не гаси.",
+  "sig": "MEUCIQCZfSvOAcCytBuLYmKLSWWqGHNlf6RN2iH5QKQfOlg3mAIgBq7UxBzFwT/5EhZ4/Yv+jV34XNgoYl+xGMCWICIW7Zg="
 }
