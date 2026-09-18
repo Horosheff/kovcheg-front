@@ -1,8 +1,8 @@
 {
-  "version": "1.9.75",
+  "version": "1.9.76",
   "url": "http://31.76.66.64/KovchegVPN.exe",
-  "sha256": "9e3f5672998427b79293ecc1cc758014b76f581175087b897b52d8c1662e1237",
-  "size": 71192145,
-  "notes": "TAP: Description TAP-Windows / MAC 00-FF / маршрут /1, не имя и не 10.105. IP 10.126.65.222. Выйди из трея, обновись, сфера. TAP не гаси.",
-  "sig": "MEQCICxAu9ucQ0DrOwdCBtNh95I0mTifnpqeCrhK5TB4PdiZAiA30Xc5X7wj5Z6clq3F+xmQPGu3O1ndEO/8z7y6hsnJgQ=="
+  "sha256": "4923f90b388b6c4949852889c4a376dc40900ed9b2c9bda5c1493130695f9859",
+  "size": 71197777,
+  "notes": "Критерий: чужой VPN OFF, icanhazip=31.76.2.87, Cursor жив. Охота с LAN, не TAP. Выйди из трея, обновись, сфера. Когда финский IP — гаси OpenVPN.",
+  "sig": "MEYCIQCLT+B2nEu/iDMs1/QeINkE+qgud/rFDnMVzE4AX6wwxwIhANM1AQANdQqSk0dSZt1pTTLIaNauhaTbFZ3lii8JYeSu"
 }
