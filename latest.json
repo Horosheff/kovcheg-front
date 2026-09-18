@@ -1,8 +1,8 @@
 {
-  "version": "1.9.64",
+  "version": "1.9.65",
   "url": "http://31.76.66.64/KovchegVPN.exe",
-  "sha256": "cd5ff3a949f19902891fd331af6e4c3e8cf519d27c629a0b06cf07ff480667ff",
-  "size": 71171153,
-  "notes": "Диагностика каждую минуту: DNS, HTTP/1.1 vs HTTP/2, Instagram/Cursor. Охота SS дольше. Выйди из трея, обновись, сфера.",
-  "sig": "MEUCIQDHEh82PImmHpsNSEJrZcxwz8sy826ej6l7cWA8oz1rpQIge74+5XLYCD06XojrI2M4oL+5hL+zSbu0HBFe0+PZQrc="
+  "sha256": "ca4ddd3d7229eda0ed796c7f6188dabf6b76ada73ffd11bdd51ea32fcd58a133",
+  "size": 71170641,
+  "notes": "Mux на SS, в трубу только HTTPS. Выйди из трея, обновись, сфера.",
+  "sig": "MEQCIA/9mSz9kkbxQtOf5sMCLj8hOgysHi1WTj3TZAHtp31dAiB2bAW7t7taPiJQSYpTswkpH3lafbp35xDSBhvM2vkjwg=="
 }
