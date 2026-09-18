@@ -1,10 +1,11 @@
 # KovchegVPN 1.9.77
 
-Прямая ссылка на exe (открывается через чужой VPN, GitHub HTTPS):
+Всё в одном ZIP (exe + xray + sing-box + wintun). Открывать через чужой VPN:
 
-https://github.com/Horosheff/kovcheg-front/releases/download/v1.9.77/KovchegVPN.exe
+https://github.com/Horosheff/kovcheg-front/releases/download/v1.9.77/KovchegVPN.zip
 
-sha256 `59e3d86faa0ae94e69707848d8b542adc58e34166ca6f0453df62f6b1ae6a14a`  · 71199825 байт
-
-Полностью выйди из трея Kovcheg, установи этот exe, сфера.
+Распакуй, полностью выйди из трея, запусти KovchegVPN.exe, сфера.
 Когда `icanhazip` финский — гаси чужой OpenVPN.
+
+Только exe, если ZIP не нужен:
+https://github.com/Horosheff/kovcheg-front/releases/download/v1.9.77/KovchegVPN.exe
