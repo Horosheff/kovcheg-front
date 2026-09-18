@@ -1,8 +1,8 @@
 {
-  "version": "1.9.73",
+  "version": "1.9.74",
   "url": "http://31.76.66.64/KovchegVPN.exe",
-  "sha256": "db06c5c05e4e6af481b72aa1a8ebc74f43a0bd54dd04ae3debfe7e5573e856eb",
-  "size": 71178321,
-  "notes": "SS через Tailscale 100.87.128.98, tun-off не сносит OpenVPN. Выйди из трея, обновись. TAP не гаси.",
-  "sig": "MEUCIQCZfSvOAcCytBuLYmKLSWWqGHNlf6RN2iH5QKQfOlg3mAIgBq7UxBzFwT/5EhZ4/Yv+jV34XNgoYl+xGMCWICIW7Zg="
+  "sha256": "151f6a1c5ae2813d4ef20595e47ea742bb91124170db69207e8a7dce9c101f57",
+  "size": 71186513,
+  "notes": "Охота через OpenVPN TAP, не LigaLink. ss-ts без локального 100.x не трогаем. Выйди из трея, обновись, сфера. TAP не гаси.",
+  "sig": "MEQCIH10O8J9dRHtxCFVYGXIuPMEWL5AFY9sxBmjuprILVW/AiBeFwPZmQPnbfBEgzafCwfex7w0V/xQFfUt8DfPG2hURA=="
 }
