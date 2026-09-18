@@ -1,8 +1,8 @@
 {
-  "version": "1.9.65",
+  "version": "1.9.66",
   "url": "http://31.76.66.64/KovchegVPN.exe",
-  "sha256": "ca4ddd3d7229eda0ed796c7f6188dabf6b76ada73ffd11bdd51ea32fcd58a133",
-  "size": 71170641,
-  "notes": "Mux на SS, в трубу только HTTPS. Выйди из трея, обновись, сфера.",
-  "sig": "MEQCIA/9mSz9kkbxQtOf5sMCLj8hOgysHi1WTj3TZAHtp31dAiB2bAW7t7taPiJQSYpTswkpH3lafbp35xDSBhvM2vkjwg=="
+  "sha256": "53ca8308fcaf48a28099e23c6a72f63f766030d0a1639259c2efb4877f5db53a",
+  "size": 71171665,
+  "notes": "Cursor HTTP/2, Telegram мимо трубы. Выйди из трея, обновись, сфера.",
+  "sig": "MEYCIQDLklq8J1ddZRMG77cMi9gK/wLcl/ZnR4AV3giu3QHnCgIhAOtTGKbhWAukroV/v7jDUW4KUhWNIH3XEhp3JuQ9a+NA"
 }
