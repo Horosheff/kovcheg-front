@@ -1,8 +1,8 @@
 {
-  "version": "1.9.62",
+  "version": "1.9.63",
   "url": "http://31.76.66.64/KovchegVPN.exe",
-  "sha256": "86d69766137a5103be6b587196046205d870f2bdf9d37291e9a331c3b803f052",
+  "sha256": "637e0456cda9921d13c118c5c8c51295dbccf023fda813e96752427861587de1",
   "size": 71157329,
-  "notes": "Instagram и Cursor IDE через Финляндию. Карточка больше не Польша. Выйди из трея, обновись, сфера.",
-  "sig": "MEUCIBh2OqN2TSwNjGqi560JYFz2HVFXxyUTz+LZ48Rjr4V8AiEAzZ/KTp15ovajLxzn1dElo4um7WoH7C00gOTAtlZW/cg="
+  "notes": "Только Shadowsocks, без xHTTP. v2rayN гасится. Выйди из трея, обновись, сфера.",
+  "sig": "MEYCIQCuthHoY3DAxa3CLxIyXUS8U++mdSOMBqEP6R4Zg3E77gIhANQDeIml3s4XrK6AcIt7eT6NpNRCQ0D0Vgv5jnJmNjv2"
 }
