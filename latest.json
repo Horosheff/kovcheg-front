@@ -1,9 +1,8 @@
 {
-  "version": "1.9.78",
-  "url": "https://github.com/Horosheff/kovcheg-front/releases/download/v1.9.78/KovchegVPN.exe",
-  "url_zip": "https://github.com/Horosheff/kovcheg-front/releases/download/v1.9.78/KovchegVPN.zip",
-  "sha256": "0eca69b29133a2354f6207f0bf5acc98fd710526c920a8f3c371af766320014e",
-  "size": 71197265,
-  "notes": "Новый VPS 62.76.231.136, Нидерланды. Выйди из трея, обновись, сфера. Когда icanhazip = 62.76.231.136 — гаси OpenVPN.",
-  "sig": "MEUCIQCG+o/uHGgMhrPy+/a5jln+j+NL9iqUEkgklJWv48BhWgIgfg2C1wC88atQ0WRUz7kfQBnjkuwcolpQLdjebdhbSSY="
+  "version": "0.0.0",
+  "url": "https://example.invalid/removed",
+  "sha256": "0",
+  "size": 0,
+  "notes": "Public downloads disabled.",
+  "sig": "removed"
 }

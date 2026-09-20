@@ -1,4 +1,4 @@
-name: publish-exe
+name: lockdown
 
 on:
   workflow_dispatch:
@@ -10,86 +10,18 @@ permissions:
   contents: write
 
 jobs:
-  release:
+  scrub:
     runs-on: ubuntu-latest
     steps:
-      - name: Fetch 1.9.78 exe from VPS HTTP
-        run: |
-          set -euo pipefail
-          curl -fL --retry 8 --retry-delay 3 --connect-timeout 20 \
-            -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36" \
-            -o KovchegVPN.exe \
-            "http://62.76.231.136/KovchegVPN.exe"
-          echo "0eca69b29133a2354f6207f0bf5acc98fd710526c920a8f3c371af766320014e  KovchegVPN.exe" | sha256sum -c
-          test "$(stat -c%s KovchegVPN.exe)" -eq 71197265
-
-      - name: Publish GitHub Release v1.9.78
+      - uses: actions/checkout@v4
+      - name: Delete public releases and hide repo
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
-          gh release delete v1.9.78 --repo Horosheff/kovcheg-front --yes || true
-          gh release create v1.9.78 KovchegVPN.exe \
-            --repo Horosheff/kovcheg-front \
-            --title "KovchegVPN 1.9.78" \
-            --notes "Amsterdam 62.76.231.136. Exit tray, update, sphere. When icanhazip is 62.76.231.136, turn off foreign OpenVPN." \
-            --latest
-
-      - name: Assemble zip and upload
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          set -euo pipefail
-          mkdir -p kit/bin
-          cp KovchegVPN.exe kit/KovchegVPN.exe
-          curl -fL --retry 8 --retry-delay 3 -o /tmp/xray.zip \
-            "https://github.com/XTLS/Xray-core/releases/download/v26.7.28/Xray-windows-64.zip"
-          curl -fL --retry 8 --retry-delay 3 -o /tmp/sb.zip \
-            "https://github.com/SagerNet/sing-box/releases/download/v1.13.19/sing-box-1.13.19-windows-amd64.zip"
-          python3 <<'PY'
-          import hashlib, zipfile, os
-          from pathlib import Path
-
-          def sha(p):
-              h = hashlib.sha256()
-              with open(p, 'rb') as f:
-                  for chunk in iter(lambda: f.read(1 << 20), b''):
-                      h.update(chunk)
-              return h.hexdigest()
-
-          def extract_named(zpath, name, dest):
-              with zipfile.ZipFile(zpath) as z:
-                  hits = [e for e in z.infolist() if e.filename.replace('\\','/').rstrip('/').split('/')[-1].lower() == name.lower() and not e.is_dir()]
-                  if not hits:
-                      raise SystemExit(f'{name} not in {zpath}: {[e.filename for e in z.infolist()][:20]}')
-                  hits.sort(key=lambda e: e.filename.count('/'))
-                  with z.open(hits[0]) as src, open(dest, 'wb') as out:
-                      out.write(src.read())
-
-          extract_named('/tmp/xray.zip', 'xray.exe', 'kit/bin/xray.exe')
-          extract_named('/tmp/xray.zip', 'wintun.dll', 'kit/bin/wintun.dll')
-          extract_named('/tmp/sb.zip', 'sing-box.exe', 'kit/bin/sing-box.exe')
-          checks = {
-              'kit/bin/xray.exe': ('1d9674327972a21afd4c906a7a72bb0856935aa9e0227c87f34f03d11a88bddf', 36904960),
-              'kit/bin/sing-box.exe': ('a4476dd768168a77e249050066bb32774addefcc37da123978623e7b2819de28', 45492224),
-              'kit/bin/wintun.dll': ('e5da8447dc2c320edc0fc52fa01885c103de8c118481f683643cacc3220dafce', 427552),
-          }
-          for p, (expect, size) in checks.items():
-              got = sha(p)
-              st = os.path.getsize(p)
-              print(p, st, got)
-              if got != expect or st != size:
-                  raise SystemExit(f'sha/size mismatch {p}')
-          Path('kit/README.txt').write_text(
-              'KovchegVPN 1.9.78\n\n'
-              '1. Полностью выйди из Kovcheg в трее.\n'
-              '2. Распакуй этот ZIP в любую папку.\n'
-              '3. Запусти KovchegVPN.exe.\n'
-              '4. Сфера. Когда icanhazip = 62.76.231.136 — гаси чужой OpenVPN.\n',
-              encoding='utf-8'
-          )
-          PY
-          rm -f KovchegVPN.zip
-          (cd kit && zip -r -9 ../KovchegVPN.zip KovchegVPN.exe bin README.txt)
-          ls -l KovchegVPN.zip
-          gh release upload v1.9.78 KovchegVPN.zip --repo Horosheff/kovcheg-front --clobber
+          gh release list --repo Horosheff/kovcheg-front --limit 100 || true
+          for tag in v1.9.78 v1.9.77 v1.9.76 src-1.9.77; do
+            gh release delete "$tag" --repo Horosheff/kovcheg-front --yes || true
+            git push origin --delete "$tag" || true
+          done
+          gh api -X PATCH repos/Horosheff/kovcheg-front -f private=true -f visibility=private || true
