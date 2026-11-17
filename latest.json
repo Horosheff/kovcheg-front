@@ -1,8 +1,8 @@
 {
-  "version": "0.0.0",
-  "url": "https://example.invalid/removed",
-  "sha256": "0",
-  "size": 0,
-  "notes": "Public downloads disabled.",
-  "sig": "removed"
+  "version": "1.9.94",
+  "url": "https://corner-grew-brown-coordinate.trycloudflare.com/KovchegVPN.exe",
+  "sha256": "9c625bbad0bedebad2b8aed485e50579f16fc01346868058ad9b6cdbc6551869",
+  "size": 71260710,
+  "notes": "Вход через Cloudflare: голый IP с дома закрыт. Каскад начинает с него.",
+  "sig": "MEQCICHI1wZQEKIcsBnU8Ol4u0sKWKy47W61Shmx6/fNLYj3AiAni9jVfoBWR0pLjmKO2/sd0JgMTWF3wak1UUa4ITC1jw=="
 }
