@@ -1,23 +1,23 @@
 [
   {
     "version": "xray.exe",
-    "url": "http://167.104.104.187/bin/xray.exe",
+    "url": "http://79.174.94.153/bin/xray.exe",
     "sha256": "1ca7a2cf61ba2c5d20b21a80d405b57933939751081cb289f07bd8ddf7cc3185",
     "size": 34864640,
-    "sig": "MEYCIQDHCdWkX5MUwfF/GpVvdY7RWYCLq5JDPDNTuEvd4Or79wIhAJ27AUAH55o7F4LIcDQbuq3CC6sOVsV0f5kgVIdxUc+R"
+    "sig": "MEYCIQDJeSuWKrvMAgAqakkgllYUe3UKsY6TlvkmWHGJiUp22AIhAOxMz+Y4tUb/eM4oXuRfaqllvINnzeIVwC23LjwrVzmG"
   },
   {
     "version": "sing-box.exe",
-    "url": "http://167.104.104.187/bin/sing-box.exe",
+    "url": "http://79.174.94.153/bin/sing-box.exe",
     "sha256": "a4476dd768168a77e249050066bb32774addefcc37da123978623e7b2819de28",
     "size": 45492224,
-    "sig": "MEUCIQDmoNyfez9pQ6hS7YzezkSZxuSqWW6GjjsfPGkS2Nu3/wIgPAbx4Tycxz1ljcu8S1p5rZARDdbvaXuG6XMdYFXKUbM="
+    "sig": "MEUCIHu4Z9JDn/bTe80wFymCPGyAhVtEgNGjkCqyzaUxcsnKAiEAnDs4f02UP0QFaAgl1vlm3U5dEI4zhGQWSwJKEKx+Uts="
   },
   {
     "version": "wintun.dll",
-    "url": "http://167.104.104.187/bin/wintun.dll",
+    "url": "http://79.174.94.153/bin/wintun.dll",
     "sha256": "e5da8447dc2c320edc0fc52fa01885c103de8c118481f683643cacc3220dafce",
     "size": 427552,
-    "sig": "MEUCIHc/zXmxQJStr6MxwPvjT2HbwZCjncx4kO9VjhhduWomAiEAxNbjhSxcONe6Vk4xnNg3PJ/LFPWi1SSy17oCI7Hnx7I="
+    "sig": "MEQCIARULk8eppcObelR468T0k+0cZayIIvA/CcdN82CYS9cAiBxCiEyowPk52+2Fcy+uCIJCjqDk7YXX5dxzj6X2legCw=="
   }
 ]
