@@ -1,8 +1,8 @@
 {
-  "version": "1.9.96",
+  "version": "1.9.97",
   "url": "http://79.174.94.153/KovchegVPN.exe",
-  "sha256": "dd053455001e5450072f0127b1973343fe638b0e4633b3eb9869b25b467e7c11",
+  "sha256": "af604f8a7911473e4fe61596c28ed036574bccd993b21809cf533fd3396901a9",
   "size": 71266854,
-  "notes": "Вход через Москву. Стокгольм вторым. Файл обновления качается с 79.174.94.153.",
-  "sig": "MEUCIDaZeZxhZlaJDDX2ZnDRchHN7muxwhUqmfgT9X0YqGu6AiEAvUfXSpIyamWqXLsnY/xF1gnp0ItKDeNqkejijswEN90="
+  "notes": "Telegram-прокси телефона на Москве, порт 2087.",
+  "sig": "MEUCIBgvrVF3ub8ZaAcrddRa0s8k0cY/ezdPF1VplHqCXpNhAiEAktrRD4FqUO69wHrc9bb6ueqxhQSimzBPFBfKvpBHjpM="
 }
