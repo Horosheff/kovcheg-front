@@ -1,8 +1,8 @@
 {
-  "version": "1.9.94",
-  "url": "https://corner-grew-brown-coordinate.trycloudflare.com/KovchegVPN.exe",
-  "sha256": "9c625bbad0bedebad2b8aed485e50579f16fc01346868058ad9b6cdbc6551869",
-  "size": 71260710,
-  "notes": "Вход через Cloudflare: голый IP с дома закрыт. Каскад начинает с него.",
-  "sig": "MEQCICHI1wZQEKIcsBnU8Ol4u0sKWKy47W61Shmx6/fNLYj3AiAni9jVfoBWR0pLjmKO2/sd0JgMTWF3wak1UUa4ITC1jw=="
+  "version": "1.9.95",
+  "url": "http://167.104.104.187/KovchegVPN.exe",
+  "sha256": "27b9ae57d44e09b09b94b6aa2fd207762a2f55501ffec4618d04997d36cc05db",
+  "size": 71264294,
+  "notes": "Стокгольм. XHTTP первым, Vision и Shadowsocks запас. Телефон: XHTTP, Vision, SS и Telegram на 167.104.104.187.",
+  "sig": "MEUCIQCE/9R0/CdO9qx6XmjEsk5QsNcoVcyrFPrLchwLRSfjNwIgFsmLL0meGIz1fQdCgou/yp6gG8TQbkGt2h5sFXAszaA="
 }
